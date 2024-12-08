@@ -1,0 +1,289 @@
+{
+  "categories": [
+    {
+      "id": "office",
+      "name": "办公系统",
+      "icon": "office-icon.png",
+      "links": [
+        {
+          "name": "OA办公",
+          "url": "http://oa.stu.edu.cn",
+          "description": "校内办公信息网",
+          "isInternal": true
+        },
+        {
+          "name": "公文系统",
+          "url": "http://gongwen.stu.edu.cn",
+          "description": "校内公文系统",
+          "isInternal": true
+        },
+        {
+          "name": "人力资源管理系统",
+          "url": "http://hr.stu.edu.cn/",
+          "description": "人事档案与考勤管理",
+          "isInternal": true
+        },
+        {
+          "name": "财务综合服务平台",
+          "url": "http://192.168.48.249/dlpt/login.aspx",
+          "description": "财务管理系统",
+          "isInternal": true
+        },
+        {
+          "name": "固定资产管理系统",
+          "url": "http://192.168.48.148:8083/gdczsam",
+          "description": "资产管理",
+          "isInternal": true
+        },
+        {
+          "name": "档案管理服务",
+          "url": "http://efms.stu.edu.cn/index.aspx",
+          "description": "电子档案管理",
+          "isInternal": true
+        },
+        {
+          "name": "信息报送系统",
+          "url": "http://infor.stu.edu.cn/index.aspx",
+          "description": "信息报送平台",
+          "isInternal": true
+        },
+        {
+          "name": "车队管理系统",
+          "url": "https://jgsw.gd.gov.cn/gcglpt/Home/Login#carTask",
+          "description": "车辆管理",
+          "isInternal": true
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "name": "教学单位",
+      "icon": "teaching-icon.png",
+      "links": [
+        {
+          "name": "医学院",
+          "url": "https://www.med.stu.edu.cn/",
+          "description": "医学院官网"
+        },
+        {
+          "name": "文学院",
+          "url": "http://www.wxy.stu.edu.cn/",
+          "description": "文学院官网"
+        },
+        {
+          "name": "理学院",
+          "url": "https://sci.stu.edu.cn",
+          "description": "理学院官网"
+        },
+        {
+          "name": "工学院",
+          "url": "https://eng.stu.edu.cn/",
+          "description": "工学院官网"
+        },
+        {
+          "name": "法学院",
+          "url": "https://law.stu.edu.cn/",
+          "description": "法学院官网"
+        },
+        {
+          "name": "商学院",
+          "url": "http://biz.stu.edu.cn/",
+          "description": "商学院官网"
+        },
+        {
+          "name": "长江艺术与设计学院",
+          "url": "https://ckad.stu.edu.cn/",
+          "description": "长江艺术与设计学院官网"
+        },
+        {
+          "name": "长江新闻与传播学院",
+          "url": "http://media.stu.edu.cn/",
+          "description": "长江新闻与传播学院官网"
+        },
+        {
+          "name": "马克思主义学院",
+          "url": "https://skb.stu.edu.cn/",
+          "description": "马克思主义学院官网"
+        },
+        {
+          "name": "公共卫生学院",
+          "url": "https://sph.stu.edu.cn",
+          "description": "公共卫生学院官网"
+        },
+        {
+          "name": "继续教育学院",
+          "url": "http://sce.stu.edu.cn/",
+          "description": "继续教育学院官网"
+        },
+        {
+          "name": "体育教学研究部",
+          "url": "http://spo.stu.edu.cn/",
+          "description": "体育教学研究部官网"
+        },
+        {
+          "name": "英语语言中心",
+          "url": "https://elc.stu.edu.cn/",
+          "description": "英语语言中心官网"
+        },
+        {
+          "name": "国际学院",
+          "url": "https://sie.stu.edu.cn/",
+          "description": "国际学院官网"
+        },
+        {
+          "name": "化学化工学院",
+          "url": "https://www.stu.edu.cn/hxhgxy",
+          "description": "化学化工学院官网"
+        },
+        {
+          "name": "数学与计算机学院",
+          "url": "https://www.stu.edu.cn/cmac/",
+          "description": "数学与计算机学院官网"
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "name": "教学服务",
+      "icon": "learning-icon.png",
+      "links": [
+        {
+          "name": "MYSTU学习平台",
+          "url": "http://my.stu.edu.cn/",
+          "description": "在线学习平台",
+          "isInternal": true
+        },
+        {
+          "name": "教务系统",
+          "url": "http://jw.stu.edu.cn/",
+          "description": "教务管理系统",
+          "isInternal": true
+        },
+        {
+          "name": "本科教学质量保障平台",
+          "url": "http://quality.stu.edu.cn",
+          "description": "教学质量管理",
+          "isInternal": true
+        },
+        {
+          "name": "学生事务系统",
+          "url": "http://xg.stu.edu.cn",
+          "description": "学生管理系统",
+          "isInternal": true
+        },
+        {
+          "name": "研究生管理信息系统",
+          "url": "http://192.168.48.143/",
+          "description": "研究生管理",
+          "isInternal": true
+        },
+        {
+          "name": "科研管理平台",
+          "url": "http://sro.stu.edu.cn/",
+          "description": "科研项目管理",
+          "isInternal": true
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "name": "校园服务",
+      "icon": "campus-icon.png",
+      "links": [
+        {
+          "name": "桑浦山网上报修",
+          "url": "http://repair.stu.edu.cn/",
+          "description": "校园维修服务",
+          "isInternal": true
+        },
+        {
+          "name": "东海岸网上报修",
+          "url": "http://r.stu.edu.cn/",
+          "description": "东海岸校区维修服务",
+          "isInternal": true
+        },
+        {
+          "name": "上网认证",
+          "url": "http://a.stu.edu.cn",
+          "description": "校园网认证",
+          "isInternal": true
+        },
+        {
+          "name": "上网流量预定",
+          "url": "https://netms.stu.edu.cn",
+          "description": "网络流量管理",
+          "isInternal": true
+        },
+        {
+          "name": "校内帐号修改密码",
+          "url": "https://netms.stu.edu.cn/ModifyPassword.aspx",
+          "description": "密码管理",
+          "isInternal": true
+        },
+        {
+          "name": "图书馆",
+          "url": "http://www.lib.stu.edu.cn/",
+          "description": "汕头大学图书馆"
+        },
+        {
+          "name": "汕大邮箱",
+          "url": "https://portal.partner.microsoftonline.cn/",
+          "description": "电子邮件系统"
+        },
+        {
+          "name": "Office365客户端",
+          "url": "https://support.stu.edu.cn",
+          "description": "Office软件服务"
+        },
+        {
+          "name": "校内常用电话",
+          "url": "http://xgh.stu.edu.cn/files/stuphone.html",
+          "description": "电话目录",
+          "isInternal": true
+        },
+        {
+          "name": "办事大厅",
+          "url": "https://ehall.stu.edu.cn/",
+          "description": "一站式服务平台",
+          "isInternal": true
+        },
+        {
+          "name": "预约平台",
+          "url": "https://ehall.stu.edu.cn/yy-sys/pc/home",
+          "description": "场地预约服务",
+          "isInternal": true
+        },
+        {
+          "name": "网络点播系统",
+          "url": "http://itv.stu.edu.cn",
+          "description": "在线视频服务",
+          "isInternal": true
+        }
+      ]
+    },
+    {
+      "id": "bidding",
+      "name": "招投标信息",
+      "icon": "bidding-icon.png",
+      "links": [
+        {
+          "name": "招标采购",
+          "url": "https://ztbzx.stu.edu.cn",
+          "description": "招标信息平台",
+          "isInternal": true
+        },
+        {
+          "name": "采购管理系统",
+          "url": "https://ztbzx.stu.edu.cn/lyuapServer.do?login",
+          "description": "采购管理",
+          "isInternal": true
+        },
+        {
+          "name": "招标公示",
+          "url": "https://www.stu.edu.cn/xwzx/zbgs.htm",
+          "description": "招标结果公示"
+        }
+      ]
+    }
+  ]
+}
