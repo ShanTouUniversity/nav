@@ -14,7 +14,6 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-700 dark:text-gray-300 mb-3">相关链接</h3>
             <ul className="space-y-2">
               <li><a href="https://www.stu.edu.cn" target="_blank" rel="noopener noreferrer" className="hover:text-brand dark:hover:text-brand-light transition-colors">汕头大学官网</a></li>
-              <li><a href="https://bbs.stu.edu.cn" target="_blank" rel="noopener noreferrer" className="hover:text-brand dark:hover:text-brand-light transition-colors">汕大BBS</a></li>
               <li><a href="https://github.com/ShanTouUniversity/nav" target="_blank" rel="noopener noreferrer" className="hover:text-brand dark:hover:text-brand-light transition-colors">GitHub 仓库</a></li>
             </ul>
           </div>

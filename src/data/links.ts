@@ -136,20 +136,6 @@ const categories = [
     ],
   },
   {
-    id: 'shopping', name: '生活购物', icon: 'fa-solid fa-cart-shopping',
-    links: [
-      { name: '淘宝', url: 'https://www.taobao.com/', description: '综合购物平台' },
-      { name: '京东', url: 'https://www.jd.com/', description: '综合购物平台' },
-      { name: '拼多多', url: 'https://www.pinduoduo.com/', description: '社交电商平台' },
-      { name: '美团', url: 'https://www.meituan.com/', description: '本地生活服务' },
-      { name: '饿了么', url: 'https://www.ele.me/', description: '外卖订餐平台' },
-      { name: '大众点评', url: 'https://www.dianping.com/', description: '本地生活消费指南' },
-      { name: '什么值得买', url: 'https://www.smzdm.com/', description: '优惠导购网站' },
-      { name: '58同城', url: 'https://www.58.com/', description: '分类信息服务平台' },
-      { name: '去哪儿', url: 'https://www.qunar.com/', description: '旅行出行预订' },
-    ],
-  },
-  {
     id: 'bidding', name: '招投标信息', icon: 'fa-solid fa-gavel',
     links: [
       { name: '招标采购', url: 'https://ztbzx.stu.edu.cn', description: '招标信息平台', isInternal: true },
