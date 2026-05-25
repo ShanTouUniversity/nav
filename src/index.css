@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #ac7d5150; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #ac7d51; }
+  .dark ::-webkit-scrollbar-thumb { background: #8b664250; }
+  .dark ::-webkit-scrollbar-thumb:hover { background: #8b6642; }
+}
+
+@layer components {
+  .card-hover {
+    transition: all 0.25s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.12);
+  }
+  .dark .card-hover:hover {
+    box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.3);
+  }
+
+  .category-pill {
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .category-pill.active {
+    background: #ac7d51;
+    color: white;
+    border-color: #ac7d51;
+  }
+  .dark .category-pill.active {
+    background: #d4b08c;
+    color: #1f2937;
+    border-color: #d4b08c;
+  }
+
+  .quick-tool {
+    transition: all 0.2s ease;
+  }
+  .quick-tool:hover {
+    transform: scale(1.08);
+  }
+
+  .search-highlight {
+    background: #ac7d5140;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+  .dark .search-highlight {
+    background: #d4b08c40;
+  }
+
+  .skeleton {
+    background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s ease-in-out infinite;
+    border-radius: 8px;
+  }
+  .dark .skeleton {
+    background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+    background-size: 200% 100%;
+  }
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #fdf6ee 0%, #f5e8d8 50%, #ede0d0 100%);
+  }
+  .dark .hero-gradient {
+    background: linear-gradient(135deg, #1a1410 0%, #2a2018 50%, #1f2937 100%);
+  }
+
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+}
