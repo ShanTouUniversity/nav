@@ -10,8 +10,14 @@ import CategorySection from './components/CategorySection'
 import BackToTop from './components/BackToTop'
 import Footer from './components/Footer'
 
+function getInitialTheme(): 'light' | 'dark' {
+  const stored = localStorage.getItem('theme')
+  if (stored === 'dark' || stored === 'light') return stored
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+}
+
 export default function App() {
-  const [theme, setTheme] = useLocalStorage<'light' | 'dark'>('theme', 'light')
+  const [theme, setTheme] = useLocalStorage<'light' | 'dark'>('theme', getInitialTheme())
   const [favUrls, setFavUrls] = useLocalStorage<string[]>('stu-nav-favs', [])
   const [activeCategory, setActiveCategory] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
@@ -21,6 +27,20 @@ export default function App() {
   useEffect(() => {
     document.documentElement.classList.toggle('dark', isDark)
   }, [isDark])
+
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-color-scheme: dark)')
+    if (!localStorage.getItem('theme')) {
+      document.documentElement.classList.toggle('dark', mq.matches)
+    }
+    const handler = (e: MediaQueryListEvent) => {
+      if (!localStorage.getItem('theme')) {
+        document.documentElement.classList.toggle('dark', e.matches)
+      }
+    }
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
 
   const toggleTheme = useCallback(() => {
     setTheme(isDark ? 'light' : 'dark')
