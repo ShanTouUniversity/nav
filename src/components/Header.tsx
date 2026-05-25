@@ -18,6 +18,15 @@ export default function Header({ isDark, onToggleTheme }: HeaderProps) {
             <div className="text-center leading-tight"><span className="font-medium text-gray-700 dark:text-gray-300">有恒</span><br />PERSEVERANCE</div>
             <div className="text-center leading-tight"><span className="font-medium text-gray-700 dark:text-gray-300">有为</span><br />ACHIEVEMENT</div>
           </div>
+          <div className="hidden md:flex items-center gap-1.5 ml-4 pl-4 border-l border-gray-200 dark:border-gray-700">
+            <a href="https://news.shantou.university" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-brand dark:text-gray-400 dark:hover:text-brand-light transition-colors">News</a>
+            <span className="text-gray-300 dark:text-gray-600">·</span>
+            <a href="https://voice.shantou.university" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-brand dark:text-gray-400 dark:hover:text-brand-light transition-colors">Voice</a>
+            <span className="text-gray-300 dark:text-gray-600">·</span>
+            <a href="https://space.shantou.university" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-brand dark:text-gray-400 dark:hover:text-brand-light transition-colors">Space</a>
+            <span className="text-gray-300 dark:text-gray-600">·</span>
+            <a href="https://shantou.university" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-brand dark:text-gray-400 dark:hover:text-brand-light transition-colors">Blog</a>
+          </div>
         </div>
         <nav className="flex items-center gap-3">
           <button
