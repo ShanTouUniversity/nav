@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nav.stu.edu.cn/sitemap.xml
