@@ -12,7 +12,7 @@ export default function Header({ isDark, onToggleTheme }: HeaderProps) {
             <i className="fa-solid fa-compass text-2xl" />
             <span>ST.U 导航</span>
           </a>
-          <div className="hidden md:flex items-center gap-4 text-xs text-gray-500 dark:text-gray-400 border-l border-gray-200 dark:border-gray-700 pl-6">
+          <div className="hidden sm:flex items-center gap-4 text-xs text-gray-500 dark:text-gray-400 border-l border-gray-200 dark:border-gray-700 pl-6">
             <div className="text-center leading-tight"><span className="font-medium text-gray-700 dark:text-gray-300">有志</span><br />ASPIRATION</div>
             <div className="text-center leading-tight"><span className="font-medium text-gray-700 dark:text-gray-300">有识</span><br />KNOWLEDGE</div>
             <div className="text-center leading-tight"><span className="font-medium text-gray-700 dark:text-gray-300">有恒</span><br />PERSEVERANCE</div>
