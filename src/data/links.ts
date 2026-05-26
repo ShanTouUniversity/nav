@@ -136,6 +136,15 @@ const categories = [
     ],
   },
   {
+    id: 'stu_ecosystem', name: 'ST.U 生态', icon: 'fa-solid fa-sitemap',
+    links: [
+      { name: 'ST.U 博客', url: 'https://shantou.university', description: '主站，发布各类文章与项目' },
+      { name: 'ST.U 资讯', url: 'https://news.shantou.university', description: '非官方校园新闻资讯平台' },
+      { name: 'ST.U Voice', url: 'https://voice.shantou.university', description: '学生之音，为学生发声' },
+      { name: 'ST.U 空间', url: 'https://space.shantou.university', description: '技术博客和创意空间' },
+    ],
+  },
+  {
     id: 'bidding', name: '招投标信息', icon: 'fa-solid fa-gavel',
     links: [
       { name: '招标采购', url: 'https://ztbzx.stu.edu.cn', description: '招标信息平台', isInternal: true },
